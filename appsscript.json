@@ -1,0 +1,56 @@
+{
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/userinfo.email",
+    "https://www.googleapis.com/auth/gmail.addons.execute",
+    "https://www.googleapis.com/auth/gmail.addons.current.message.readonly",
+    "https://www.googleapis.com/auth/script.external_request"
+  ],
+  "gmail": {
+    "name": "Odoo",
+    "logoUrl": "https://raw.githubusercontent.com/odoo/mail-client-extensions/master/outlook/assets/odoo.png",
+    "contextualTriggers": [
+      {
+        "unconditional": {},
+        "onTriggerFunction": "onGmailMessageOpen"
+      }
+    ],
+    "primaryColor": "#875A7B",
+    "secondaryColor": "#00A09D",
+    "openLinkUrlPrefixes": ["*"]
+  },
+  "urlFetchWhitelist": [
+    "https://*.pqi.net/mail_plugin/get_translations",
+    "https://*.pqi.net/mail_plugin/partner/get",
+    "https://*.pqi.net/mail_plugin/log_mail_content",
+    "https://*.pqi.net/mail_plugin/partner/search",
+    "https://*.pqi.net/mail_plugin/partner/create",
+    "https://*.pqi.net/mail_plugin/partner/enrich_and_create_company",
+    "https://*.pqi.net/mail_plugin/partner/enrich_and_update_company",
+    "https://*.pqi.net/mail_plugin/lead/create",
+    "https://*.pqi.net/mail_plugin/equipment/create",
+    "https://*.pqi.net/mail_plugin/ticket/create",
+    "https://*.pqi.net/mail_plugin/project/search",
+    "https://*.pqi.net/mail_plugin/project/create",
+    "https://*.pqi.net/mail_plugin/task/create",
+    "https://*.pqi.net/web/login",
+    "https://*.pqi.net/mail_plugin/auth",
+    "https://*.pqi.net/mail_plugin/auth/access_token",
+    "https://pqi.net/mail_plugin/get_translations",
+    "https://pqi.net/mail_plugin/partner/get",
+    "https://pqi.net/mail_plugin/log_mail_content",
+    "https://pqi.net/mail_plugin/partner/search",
+    "https://pqi.net/mail_plugin/partner/create",
+    "https://pqi.net/mail_plugin/partner/enrich_and_create_company",
+    "https://pqi.net/mail_plugin/partner/enrich_and_update_company",
+    "https://pqi.net/mail_plugin/lead/create",
+    "https://pqi.net/mail_plugin/equipment/create",
+    "https://pqi.net/mail_plugin/ticket/create",
+    "https://pqi.net/mail_plugin/project/search",
+    "https://pqi.net/mail_plugin/project/create",
+    "https://pqi.net/mail_plugin/task/create",
+    "https://pqi.net/web/login",
+    "https://pqi.net/mail_plugin/auth",
+    "https://pqi.net/mail_plugin/auth/access_token",
+    "https://iap-services.pqi.net/iap/mail_extension/enrich"
+  ]
+}
