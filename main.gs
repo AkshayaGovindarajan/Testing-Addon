@@ -15,6 +15,7 @@ PERFORMANCE OF THIS SOFTWARE.
 /* global Reflect, Promise, SuppressedError, Symbol */
 
 /**Testing the addon */
+/** Commit2 */
 var __assign = function() {
     __assign = Object.assign || function __assign(t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
